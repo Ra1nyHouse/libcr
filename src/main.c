@@ -36,6 +36,15 @@ int ascending(ccrContParam) {
     ccrFinish(-1);
 }
 
+int consumer()
+{
+
+}
+int produce()
+{
+
+}
+
 int test() {
     static int i;
     i=1;
@@ -43,13 +52,15 @@ int test() {
     return i;
 }
 int main() {
-    ccrContext z = 0;
-    for(int i=0;i<3;i++)
-        printf("%d \n", ascending(&z));
-    for(int i=0;i<3;i++)
-        printf("%d \n", ascending(&z));
-    ccrAbort(z);
-    for(int i=0;i<3;i++)
-        printf("%d \n", ascending(&z));
+//    ccrContext z = 0;
+//    for(int i=0;i<3;i++)
+//        printf("%d \n", ascending(&z));
+//    for(int i=0;i<3;i++)
+//        printf("%d \n", ascending(&z));
+//    ccrAbort(z);
+//    for(int i=0;i<3;i++)
+//        printf("%d \n", ascending(&z));
     //printf("%d \n", ascending());
+
+
 }
