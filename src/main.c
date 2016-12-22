@@ -38,11 +38,11 @@ int ascending(ccrContParam) {
 
 int consumer()
 {
-
+    return 0;
 }
 int produce()
 {
-
+    return 0;
 }
 
 int test() {
@@ -62,5 +62,5 @@ int main() {
 //        printf("%d \n", ascending(&z));
     //printf("%d \n", ascending());
 
-
+    return 0;
 }
