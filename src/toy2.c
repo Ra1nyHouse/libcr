@@ -1,8 +1,10 @@
 //
 // Created by ChengZhehao on 2016/12/22.
 //
+
 #include <stdio.h>
 
+// 利用goto，和静态变量，实现了从return的地方开始执行
 int fun() {
     // 静态函数第一初始化时赋值，之后改赋值语句不会起作用
     static int i, state = 0;

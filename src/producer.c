@@ -7,7 +7,7 @@ int main(){
     int c;
     while (1) {
         c = getchar();
-//        putchar('c');
+        putchar(c);
         if (c == '$' || c == EOF)
             break;
     }

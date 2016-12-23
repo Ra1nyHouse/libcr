@@ -12,6 +12,7 @@ int fun() {
 int main() {
     int i=0;
     for (i=0; i< 10; i++)
+        // 期望每次调用fun()的时候，都能从上次return的地方执行
         printf("%d ", fun());
     return 0;
 }

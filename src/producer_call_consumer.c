@@ -26,12 +26,13 @@ void consumer(int c)
         case IN_WORD:
             if (is_alpha(c))
                 putchar(c);
-            else
+            else {
+                putchar('\n');
                 state = END_WORD;
+            }
             break;
         case END_WORD:
             if (is_alpha(c)) {
-                putchar('\n');
                 putchar(c);
                 state = IN_WORD;
             }
@@ -44,11 +45,13 @@ int main(){
     int c;
     while (1) {
         c = getchar();
-        if (c == '$' || c == EOF)
-            break;
+
         //putchar(c);
         consumer(c);
+
+        if (c == '$' || c == EOF)
+            break;
+
     }
-    putchar('$');
     return 0;
 }
