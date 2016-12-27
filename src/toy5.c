@@ -53,9 +53,9 @@ int main() {
     {
         printf("%d ", fun(&ctx));
     }
-
+    printf("\n");
     CR_ABORT(ctx);
-    for (i=0; i< 5; i++)
+    for (i=0; i< 10; i++)
     {
         printf("%d ", fun(&ctx));
     }
