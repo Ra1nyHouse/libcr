@@ -13,3 +13,6 @@ add_executable(toy5 toy5.c)
 add_executable(using_eventloop using_eventloop.c)
 target_link_libraries(using_eventloop libcr)
 
+add_executable(asyn_load_file asyn_load_file.c)
+target_link_libraries(asyn_load_file libcr)
+

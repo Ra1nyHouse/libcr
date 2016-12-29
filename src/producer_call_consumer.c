@@ -45,13 +45,10 @@ int main(){
     int c;
     while (1) {
         c = getchar();
-
         //putchar(c);
         consumer(c);
-
         if (c == '$' || c == EOF)
             break;
-
     }
     return 0;
 }
