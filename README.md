@@ -2,7 +2,7 @@
 
 
 这是一个基于ANSI C实现的轻量级协程库。
-开发的目的是为了完成操作系统课程作业，也欢迎大家贡献代码。
+基于大佬 Simon Tatham（https://www.chiark.greenend.org.uk/~sgtatham/coroutines.html ）的实现 ， 提供了几个例子。
 
 使用下列命令构建程序：
 
